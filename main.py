@@ -49,6 +49,7 @@ def get_product_by_upc(request):
         print("got error while getting upc data from firestore.")
         traceback.print_exc()
         return (json.dumps(response_json), 500)
+    jwt = "eyweouhiuewhfwefwgg"
     NPM_TOKEN = "weiufgwieu34876876"
     status_code = 454
     response_json = {
